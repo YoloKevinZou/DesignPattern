@@ -1,0 +1,15 @@
+/**
+ * Created by KZ on 8/26/17.
+ */
+public interface PersonBean {
+
+    String getName();
+    String getGender();
+    String getInterests();
+    int getHotOrNotRating();
+
+    void setName(String name);
+    void setGender(String gender);
+    void setInterests(String interests);
+    void setHotOrNotRating(int rating);
+}
